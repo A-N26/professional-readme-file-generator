@@ -120,8 +120,8 @@ const questions = () => {
       },
       {
         type: "list",
-        name: "Licence",
-        message: "Please specify the licence from the choices.",
+        name: "License",
+        message: "Please specify the license from the choices.",
         choices: ["MIT", "ISC", "GNU GPLv3", "Unlicense", "none"],
       },
       {
@@ -157,7 +157,7 @@ function init() {
       return generateMarkdown(data);
     })
     .then((Markdown) => {
-      writeToFile(`./${filename}`, Markdown);
+      writeToFile("./ReadMe.md", Markdown);
     })
     .catch((err) => {
       console.log(err);

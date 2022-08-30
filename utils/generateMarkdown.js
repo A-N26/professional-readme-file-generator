@@ -1,15 +1,15 @@
 // ↓ Function to return a licence badge based on which licence is passed in.
 // If there is no licence, return an empty string.
-function renderLicenceBadge(Licence) {
-  if (Licence === "none" && Licence !== "") {
+function renderLicenseBadge(License) {
+  if (License === "none" && License !== "") {
     return `[![License: Public Domain Mark 1.0](https://img.shields.io/badge/license-PublicDomain-blue.svg)](https://creativecommons.org/publicdomain/mark/1.0/)`;
-  } else if (Licence === "Unlicense") {
+  } else if (License === "Unlicense") {
     return `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://choosealicense.com/licenses/unlicense/)`;
-  } else if (Licence === "MIT") {
+  } else if (License === "MIT") {
     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)`;
-  } else if (Licence === "ISC") {
+  } else if (License === "ISC") {
     return `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`;
-  } else if (Licence === "GNU GPLv3") {
+  } else if (License === "GNU GPLv3") {
     return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://choosealicense.com/licenses/gpl-3.0/)`;
   } else {
     return "";
@@ -18,17 +18,17 @@ function renderLicenceBadge(Licence) {
 
 // ↓ Function to return the licence link.
 // If there is no licence, return un empty string.
-function renderLicenceLink(Licence) {
-  if (Licence === "unlicense") {
+function renderLicenseLink(License) {
+  if (License === "unlicense") {
     return `[Unlicense](https://choosealicense.com/licenses/unlicense/)`;
   }
-  if (Licence === "MIT") {
+  if (License === "MIT") {
     return `[MIT](https://choosealicense.com/licenses/mit/)`;
   }
-  if (Licence === "ISC") {
+  if (License === "ISC") {
     return `[ISC](https://opensource.org/licenses/ISC)`;
   }
-  if (Licence === "GNU GPLv3") {
+  if (License === "GNU GPLv3") {
     return `[GPL v3](https://choosealicense.com/licenses/gpl-3.0/)`;
   } else {
     return "";
@@ -37,60 +37,74 @@ function renderLicenceLink(Licence) {
 
 // ↓ Function to create license section of README.
 //  If there is no licence, return un empty string.
-function renderLicenceSection(Licence) {
-  if (Licence !== "none") {
+function renderLicenseSection(License) {
+  if (License !== "none") {
     return `
         ## Licence
-        ${renderLicenceBadge(Licence)}`;
+        ${renderLicenseLink(License)}`;
   } else {
     return `
-        ## Licence
-        [No Licence has been set for this project](https://choosealicense.com/no-permission/)`;
+        ## License
+        [No License has been set for this project](https://choosealicense.com/no-permission/)`;
   }
 }
 
 // ↓ Function to generate markdown for README.
 function generateMarkdown(data) {
   return `
-        # ${data.Title}
 
-        ## Description
-        ${data.Description}
+  # ${data.Title}
 
-        ## Languages Used
-        ${data.Languages}
+  ## Description
 
-        ## Table of Contents
-        * [Installation](#Installation)
-        * [Usage](#Usage)
-        * [Link](#Link)
-        * [Credits](#Credits)
-        * [Licence](#Licence)
-        * [Badges](#Badges)
+  ${data.Description}
 
-        ---
+  ## Languages Used
 
-        ## Installation
-        ${data.Installation}
+  ${data.Languages}
 
-        ## Usage
-        ${data.Usage}
+  ## Table of Contents
 
-        ## Link
-        ${data.GUser}
-        ${data.GLink}
-        ${data.DLink}
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [Link](#Link)
+  * [Credits](#Credits)
+  * [License](#License)
+  * [Badges](#Badges)
 
-        ## Credits
-        ${data.Credits}
+  ---
 
-        ## Licence
-        ${renderLicenceSection(Licence)}
-        * Link: ${renderLicenceLink(Licence)}
+  ## Installation
 
-        ## Badges
-        ${data.Badges}
-    `;
+  ${data.Installation}
+
+  ## Usage
+
+  ${data.Usage}
+
+  ## Link
+
+  ${data.GUser}
+
+  ${data.GLink}
+
+  ${data.DLink}
+
+  ## Credits
+
+  ${data.Credits}
+
+  ## License
+
+  ${renderLicenseSection(License)}
+
+  ${renderLicenseBadge(License)}
+
+  ## Badges
+
+  ${data.Badges}
+
+  `;
 }
 
 module.exports = { generateMarkdown };
