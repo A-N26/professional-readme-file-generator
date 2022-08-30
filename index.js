@@ -130,8 +130,8 @@ const questions = () => {
         message: "Would you like to include any badges?",
       },
     ])
-    .then((input) => {
-      return input;
+    .then((data) => {
+      return data;
     });
 };
 
@@ -153,8 +153,8 @@ function writeToFile(filename, data) {
 // ↓ To create a function to initialize app
 function init() {
   questions()
-    .then((input) => {
-      return generateMarkdown(input);
+    .then((data) => {
+      return generateMarkdown(data);
     })
     .then((Markdown) => {
       writeToFile(`./${filename}`, Markdown);
