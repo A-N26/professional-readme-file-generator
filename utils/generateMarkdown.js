@@ -40,11 +40,11 @@ function renderLicenceLink(Licence) {
 function renderLicenceSection(Licence) {
   if (Licence !== "none") {
     return `
-        ## License
+        ## Licence
         ${renderLicenceBadge(Licence)}`;
   } else {
     return `
-        ## License
+        ## Licence
         [No Licence has been set for this project](https://choosealicense.com/no-permission/)`;
   }
 }
@@ -65,7 +65,7 @@ function generateMarkdown(data) {
         * [Usage](#Usage)
         * [Link](#Link)
         * [Credits](#Credits)
-        * [License](#License)
+        * [Licence](#Licence)
         * [Badges](#Badges)
 
         ---
@@ -84,7 +84,7 @@ function generateMarkdown(data) {
         ## Credits
         ${data.Credits}
 
-        ## License
+        ## Licence
         ${renderLicenceSection(Licence)}
         ${renderLicenceLink(Licence)}
 
