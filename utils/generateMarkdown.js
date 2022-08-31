@@ -64,11 +64,11 @@ function generateMarkdown(data) {
   ${data.Usage}
 
 ## *Link*
-  ${data.GUser}
+  >${data.GUser}
 
-  ${data.GLink}
+  >${data.GLink}
 
-  ${data.DLink}
+  >${data.DLink}
 
 ## *Credits*
   ${data.Credits}
