@@ -51,7 +51,7 @@
 
 <summary>Walkthrough video link</summary>
   
-> ![Professional-ReadMe-file-generator-walkthrough-video](../media/Walkthrough vid of Module9 Challenge_ Aug 31, 2022 5_47 PM.webm)
+> [Professional-ReadMe-file-generator-walkthrough-video](https://drive.google.com/file/d/1sjr6pZzkm_v7w45Jw4sGSi0eZJ6iK_8l/view)
 
 </details>
 
