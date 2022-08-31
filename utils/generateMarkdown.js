@@ -75,11 +75,17 @@ function generateMarkdown(data) {
 
 ## *Link*
 
+<details>
+
+<summary>My github links</summary>
+
 >${data.GUser}
 
 * >${data.GLink}
 
 * >${data.DLink}
+
+</details>
 
 ## *Credits*
 
