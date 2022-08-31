@@ -5,7 +5,7 @@
 
 ## <div align="center"> *Description* </div>
 
-  A simple ==ReadMe.md== file auto-generated on answering related questions in terminal (integrated in vscode or gitBash) and by using ==only javascript (node.js, npm and inquirer pkg)==.
+  A simple `ReadMe.md` file auto-generated on answering related questions in `terminal (integrated in vscode or gitBash)` and by using `only javascript (node.js, npm and inquirer pkg)`.
 
 ## <div align="center"> *Languages Used* </div>
 
@@ -26,12 +26,12 @@
 
 ## *Installation*
 
-  Type "npm i" or "npm install", without quotes, in terminal (vscode integrated one or gitBash) which will install the required node_modules (in this case only inquirer pkg) package dependencies folder in directory. once that is done, type in "node index.js", without the quotes, to start the creation process.  </br></br> ![NodeCommand](../media/NodeCmd.jpg)  </br></br>  A quick preview gif of both the js codes (generateMarkdown & index):
+  Type `"npm i"` or `"npm install"`, without quotes, in terminal (vscode integrated one or gitBash) which will install the required node_modules (in this case only inquirer pkg) package dependencies folder in directory. once that is done, type in `"node index.js"`, without the quotes, to start the creation process.  </br></br> ![NodeCommand](../media/NodeCmd.jpg)  </br></br>  A quick preview gif of both the js codes (generateMarkdown & index):
   ![CodePreview](../media/Index%26generateMarkdownCodesPreview.gif)
 
 ## *Usage*
 
-  After the above steps are taken care of, answer a list of questions as per required to generate the file. Once that is done, a 'success' statement will pop up in terminal and a file will be saved in the directory, ready to be used.  </br></br>  ![Usage process](../media/Terminal_NodeInitialize-to-ReadMeSavedSuccessfully.gif)
+  After the above steps are taken care of, answer a list of questions as per required to generate the file. Once that is done, a `'success'` statement will pop up in terminal and a file will be saved in the directory, ready to be used.  </br></br>  ![Usage process](../media/Terminal_NodeInitialize-to-ReadMeSavedSuccessfully.gif)
 
 ## *Link*
 
@@ -49,7 +49,7 @@
 
 ## *Credits*
 
-   Followed [readme-guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) to structure the generated ReadMe accordingly.  </br></br>  Used [dev.to](https://dev.to/envoy_/150-badges-for-github-pnk#ide) link for some badges.  </br></br>  Used [choosealicense](https://choosealicense.com/) to include all the different licences along with 1 from [creativecommons](https://creativecommons.org/publicdomain/mark/1.0/).  </br></br>  Google/Youtube
+   Followed [readme-guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) to structure the generated ReadMe accordingly.  </br></br>  Used [dev.to](https://dev.to/envoy_/150-badges-for-github-pnk#ide) link for some `badges`.  </br></br>  Used [choosealicense](https://choosealicense.com/) to include all the different licences along with 1 from [creativecommons](https://creativecommons.org/publicdomain/mark/1.0/).  </br></br>  Google/Youtube
 
 ## *License*
 
