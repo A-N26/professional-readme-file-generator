@@ -157,7 +157,7 @@ function init() {
       return generateMarkdown(data);
     })
     .then((Markdown) => {
-      writeToFile("./generated%20ReadMe/ReadMe.md", Markdown);
+      writeToFile("./generated_ReadMe/ReadMe.md", Markdown);
     })
     .catch((err) => {
       console.log(err);
