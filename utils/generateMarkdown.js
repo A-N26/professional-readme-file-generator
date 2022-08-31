@@ -41,12 +41,18 @@ function renderLicenseSection(License) {
 function generateMarkdown(data) {
   return `
 # <div align="center"> **${data.Title}** </div>
+
 ---
+
 ## <div align="center"> *Description* </div>
+
   ${data.Description}
 
 ## <div align="center"> *Languages Used* </div>
+
   ${data.Languages}
+
+---
 
 ## *Table of Contents*
 
@@ -56,26 +62,35 @@ function generateMarkdown(data) {
 * [Credits](#Credits)
 * [License](#License)
 * [Badges](#Badges)
+
 ---
+
 ## *Installation*
+
   ${data.Installation}
 
 ## *Usage*
+
   ${data.Usage}
 
 ## *Link*
-  >${data.GUser}
-    >${data.GLink}
 
-  >${data.DLink}
+>${data.GUser}
+
+* >${data.GLink}
+
+* >${data.DLink}
 
 ## *Credits*
+
   ${data.Credits}
 
 ## *License*
+
   ${renderLicenseSection(data.License)}
 
 ## *Badges*
+
   ${data.Badges}
 `;
 }
