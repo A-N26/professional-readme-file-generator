@@ -65,8 +65,7 @@ function generateMarkdown(data) {
 
 ## *Link*
   >${data.GUser}
-
-  >${data.GLink}
+    >${data.GLink}
 
   >${data.DLink}
 
