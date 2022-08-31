@@ -77,7 +77,7 @@ function generateMarkdown(data) {
 
 <details>
 
-<summary>My github links</summary>
+<summary>Github Links</summary>
 
 >${data.GUser}
 
