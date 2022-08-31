@@ -2,7 +2,7 @@
 // If there is no licence, return an empty string.
 function renderLicenseBadge(License) {
   if (License !== "none") {
-    return `${renderLicenseLink(data.License)}`;
+    return `${renderLicenseLink(License)}`;
   } else {
     return `[![License: Public Domain Mark 1.0](https://img.shields.io/badge/license-PublicDomain-blue.svg)](https://creativecommons.org/publicdomain/mark/1.0/)`;
   }
@@ -31,7 +31,7 @@ function renderLicenseLink(License) {
 //  If there is no licence, return un empty string.
 function renderLicenseSection(License) {
   if (License !== "none") {
-    return `${renderLicenseBadge(data.License)}`;
+    return `${renderLicenseBadge(License)}`;
   } else {
     return `[![License: Public Domain Mark 1.0](https://img.shields.io/badge/license-PublicDomain-blue.svg)](https://creativecommons.org/publicdomain/mark/1.0/)`;
   }
