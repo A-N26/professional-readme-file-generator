@@ -56,9 +56,7 @@ function generateMarkdown(data) {
 * [Credits](#Credits)
 * [License](#License)
 * [Badges](#Badges)
-
 ---
-
 ## *Installation*
   ${data.Installation}
 
