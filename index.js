@@ -108,9 +108,15 @@ const questions = () => {
           if (LinkInput) {
             return true;
           } else {
-            return false;
+            return "";
           }
         },
+      },
+      {
+        type: "input",
+        name: "ELink",
+        message:
+          "If you would like to enter an email address for people to reach out to you if they need to contact you, Please do so here!",
       },
       {
         type: "input",
@@ -123,11 +129,32 @@ const questions = () => {
         name: "License",
         message: "Please specify the license from the choices.",
         choices: ["MIT", "ISC", "GNU GPLv3", "Unlicense", "none"],
+
+        validate: (LicenceList) => {
+          if (LicenceList) {
+            return true;
+          } else {
+            console.log("Please select a licence type");
+            return "false";
+          }
+        },
       },
       {
         type: "input",
         name: "Badges",
         message: "Would you like to include any badges?",
+      },
+      {
+        type: "input",
+        name: "Contribution",
+        message:
+          "Please mention any instructions for other users who wish to contribute to your project in any way, shape or form!",
+      },
+      {
+        type: "input",
+        name: "Tests",
+        message:
+          "Please mention any instructions for users who would like to test your project.",
       },
     ])
     .then((data) => {

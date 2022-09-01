@@ -1,39 +1,39 @@
 // ↓ Function to return a licence badge based on which licence is passed in.
 // If there is no licence, return an empty string.
-function renderLicenseBadge(License) {
-  if (License !== "none") {
-    return `${renderLicenseLink(License)}`;
+function renderLicenceBadge(Licence) {
+  if (Licence !== "none") {
+    return `${renderLicenceLink(Licence)}`;
   } else {
-    return `[![License: Public Domain Mark 1.0](https://img.shields.io/badge/license-PublicDomain-blue.svg)](https://creativecommons.org/publicdomain/mark/1.0/)`;
+    return `[![Licence: Public Domain Mark 1.0](https://img.shields.io/badge/license-PublicDomain-blue.svg)](https://creativecommons.org/publicdomain/mark/1.0/)`;
   }
 }
 
 // ↓ Function to return the licence link.
 // If there is no licence, return un empty string.
-function renderLicenseLink(License) {
-  if (License === "unlicense") {
-    return `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://choosealicense.com/licenses/unlicense/)`;
+function renderLicenceLink(Licence) {
+  if (Licence === "unlicense") {
+    return `[![Licence: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://choosealicense.com/licenses/unlicense/)`;
   }
-  if (License === "MIT") {
-    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)`;
+  if (Licence === "MIT") {
+    return `[![Licence: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/)`;
   }
-  if (License === "ISC") {
-    return `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`;
+  if (Licence === "ISC") {
+    return `[![Licence: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`;
   }
-  if (License === "GNU GPLv3") {
-    return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://choosealicense.com/licenses/gpl-3.0/)`;
+  if (Licence === "GNU GPLv3") {
+    return `[![Licence: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://choosealicense.com/licenses/gpl-3.0/)`;
   } else {
-    return `[![License: Public Domain Mark 1.0](https://img.shields.io/badge/license-PublicDomain-blue.svg)](https://creativecommons.org/publicdomain/mark/1.0/)`;
+    return `[![Licence: Public Domain Mark 1.0](https://img.shields.io/badge/license-PublicDomain-blue.svg)](https://creativecommons.org/publicdomain/mark/1.0/)`;
   }
 }
 
 // ↓ Function to create license section of README.
 //  If there is no licence, return un empty string.
-function renderLicenseSection(License) {
-  if (License !== "none") {
-    return `${renderLicenseBadge(License)}`;
+function renderLicenceSection(Licence) {
+  if (Licence !== "none") {
+    return `${renderLicenceBadge(Licence)}`;
   } else {
-    return `[![License: Public Domain Mark 1.0](https://img.shields.io/badge/license-PublicDomain-blue.svg)](https://creativecommons.org/publicdomain/mark/1.0/)`;
+    return `[![Licence: Public Domain Mark 1.0](https://img.shields.io/badge/license-PublicDomain-blue.svg)](https://creativecommons.org/publicdomain/mark/1.0/)`;
   }
 }
 
@@ -41,6 +41,8 @@ function renderLicenseSection(License) {
 function generateMarkdown(data) {
   return `
 # <div align="center"> **${data.Title}** </div>
+
+${renderLicenceSection(data.Licence)}
 
 ---
 
@@ -58,10 +60,13 @@ function generateMarkdown(data) {
 
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [Link](#Link)
+* [Links](#Links)
 * [Credits](#Credits)
-* [License](#License)
+* [Licence](#Licence)
 * [Badges](#Badges)
+* [Questions](#Questions)
+* [Tests](#Tests)
+
 
 ---
 
@@ -73,7 +78,7 @@ function generateMarkdown(data) {
 
   ${data.Usage}
 
-## *Link*
+## *Links*
 
 <details>
 
@@ -91,13 +96,29 @@ function generateMarkdown(data) {
 
   ${data.Credits}
 
-## *License*
 
-  ${renderLicenseSection(data.License)}
+## *Licence*
+
+  ${renderLicenceLink(data.Licence)}
 
 ## *Badges*
 
   ${data.Badges}
+
+## *Questions*
+
+If you would like to as me anything (ama) about the project, please contact me on the email mentioned below (or if you would like to contact via GitHub the link to my profile in mentioned in the links section up above!):
+
+* >${data.ELink}
+
+## *Contributing*
+
+  ${data.Contribution}
+
+## *Tests*
+
+  ${data.Tests}
+
 `;
 }
 
