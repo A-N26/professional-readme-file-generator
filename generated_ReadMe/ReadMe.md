@@ -36,7 +36,7 @@
 
   After the above steps are taken care of, answer a list of questions as per required to generate the file. Once that is done, a `'success'` statement will pop up in terminal and a file will be saved in the directory, ready to be used.  </br></br>  ![UsageProcess](../media/Terminal_NodeInitialize-to-ReadMeSavedSuccessfully.gif)
 
-* [Walkthrough video](https://youfiles.herokuapp.com/videodictionary/?m=Video_Player_Drive&state=%7B%22ids%22:%5B%221tekbqUEKJZIrjM3yqtbzxMl5WIqYakgG%22%5D,%22action%22:%22open%22,%22userId%22:%22114036069812191220284%22,%22resourceKeys%22:%7B%7D%7D)
+* [Walkthrough video](https://drive.google.com/file/d/1tekbqUEKJZIrjM3yqtbzxMl5WIqYakgG/view)
 
 ## *Links*
 
