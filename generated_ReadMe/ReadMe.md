@@ -44,7 +44,7 @@
 
 <summary>Github Links</summary>
 
-* >[Professional-ReadMe-file-generator](https://github.com/A-N26/professional-readme-file-generator)
+>[Professional-ReadMe-file-generator](https://github.com/A-N26/professional-readme-file-generator)
 
 * >N/A
 
