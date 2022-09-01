@@ -36,7 +36,7 @@
 
   After the above steps are taken care of, answer a list of questions as per required to generate the file. Once that is done, a `'success'` statement will pop up in terminal and a file will be saved in the directory, ready to be used.  </br></br>  ![UsageProcess](../media/Terminal_NodeInitialize-to-ReadMeSavedSuccessfully.gif)
 
-* [Walkthrough video](../media/)
+* [Walkthrough video](../media/Walkthrough_ReadMe-generator.mp4)
 
 ## *Links*
 
