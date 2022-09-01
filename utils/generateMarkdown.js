@@ -67,7 +67,6 @@ ${renderLicenceSection(data.Licence)}
 * [Questions](#Questions)
 * [Tests](#Tests)
 
-
 ---
 
 ## *Installation*
