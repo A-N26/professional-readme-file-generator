@@ -50,7 +50,7 @@
 
 </details>
 
-> [Walkthrough video](https://drive.google.com/file/d/1J1QQHdJABZdxEqQe5AjwWC0X8LaNF_8S/view)
+* [Walkthrough video](../media/Professional-Readme-Generator.webm)
 
 ## *Credits*
 
