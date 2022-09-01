@@ -56,7 +56,7 @@
 
 ## *License*
 
-  >**(Please Click the BADGE for the license details.)**
+  **(Please Click the BADGE for the license details.)**
 
   [![License: Unlicense](https://img.shields.io/badge/License-Unlicense-blue.svg)](https://choosealicense.com/licenses/unlicense/)
 
