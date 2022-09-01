@@ -125,7 +125,6 @@ If you would like to as me anything (ama) about the project, please contact me o
 ## *Tests*
 
   ${data.Tests}
-
 `;
 }
 
