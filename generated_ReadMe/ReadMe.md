@@ -30,7 +30,7 @@
 
 ## *Installation*
 
-  Type `"npm i"` or `"npm install"`, without quotes, in terminal (vscode integrated one or gitBash) which will install the required node_modules (in this case only inquirer pkg) package dependencies folder in directory. Once that is done, type in `"node index.js"`, without the quotes, to start the creation process.  </br></br>  ![NodeCommand](../media/nodeCmd.jpg)  </br></br>  A quick preview gif of both the js codes (generateMarkdown & index): ![CodePreview](../media/IndexandGenerateMarkdownCodesPreview.gif)
+  Type `"npm i"` or `"npm install"`, without quotes, in terminal (vscode integrated one or gitBash) which will install the required node_modules (in this case only inquirer pkg) package dependencies folder in directory. Once that is done, type in `"node index.js"`, without the quotes, to start the creation process.  </br></br>  ![NodeCommand](../media/NodeCmd.jpg)  </br></br>  A quick preview gif of both the js codes (generateMarkdown & index): ![CodePreview](../media/IndexandGenerateMarkdownCodesPreview.gif)
 
 ## *Usage*
 
