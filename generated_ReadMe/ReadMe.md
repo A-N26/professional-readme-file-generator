@@ -50,7 +50,6 @@
 
 </details>
 
-
 * [Walkthrough video](../media/Professional-Readme-Generator.webm)
 
 ## *Credits*
