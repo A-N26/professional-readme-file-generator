@@ -21,7 +21,7 @@
 * [Usage](#Usage)
 * [Links](#Links)
 * [Credits](#Credits)
-* [Licence](#Licence)
+* [License](#License)
 * [Badges](#Badges)
 * [Questions](#Questions)
 * [Tests](#Tests)
