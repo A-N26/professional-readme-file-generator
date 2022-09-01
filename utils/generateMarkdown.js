@@ -83,9 +83,7 @@ ${renderLicenseBadge(data.License)}
 
 <summary>Github Links</summary>
 
->${data.GUser}
-
-* >${data.GLink}
+>${data.GLink}
 
 * >${data.DLink}
 
@@ -108,9 +106,17 @@ ${renderLicenseBadge(data.License)}
 
 ## *Questions*
 
-If you would like to as me anything (ama) about the project, please contact me on the email mentioned below (or if you would like to contact via GitHub the link to my profile in mentioned in the links section up above!):
+If you would like to as me anything (ama) about the project, please contact me on the info mentioned below:
 
-* >${data.ELink}
+<details>
+
+<summary>Contact Me</summary>
+
+* [My GitHub Profile](https://github.com/${data.GUser})
+
+* [My e-mail](${data.ELink}
+
+</details>
 
 ## *Contributing*
 

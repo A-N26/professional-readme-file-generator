@@ -36,21 +36,19 @@
 
   After the above steps are taken care of, answer a list of questions as per required to generate the file. Once that is done, a `'success'` statement will pop up in terminal and a file will be saved in the directory, ready to be used.  </br></br>  ![UsageProcess](../media/Terminal_NodeInitialize-to-ReadMeSavedSuccessfully.gif)
 
+* [Walkthrough video](../media/)
+
 ## *Links*
 
 <details>
 
 <summary>Github Links</summary>
 
->[A-N26](https://github.com/A-N26)
-
 * >[Professional-ReadMe-file-generator](https://github.com/A-N26/professional-readme-file-generator)
 
 * >N/A
 
 </details>
-
-* [Walkthrough video](../media/Professional-Readme-Generator.webm)
 
 ## *Credits*
 
@@ -70,7 +68,15 @@
 
 If you would like to as me anything (ama) about the project, please contact me on the email mentioned below (or if you would like to contact via GitHub the link to my profile in mentioned in the links section up above!):
 
-* >[My e-mail](A-N26@github.com)
+<details>
+
+<summary>Contact Me</summary>
+
+* [A-N26](https://github.com/A-N26)
+
+* [My e-mail](A-N26@github.com)
+
+</details>
 
 ## *Contributing*
 
