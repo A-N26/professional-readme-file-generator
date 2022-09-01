@@ -52,7 +52,7 @@
 
 ## *Credits*
 
-  Followed [readme-guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) to structure the generated ReadMe accordingly.  </br></br>  Used [dev.to](https://dev.to/envoy_/150-badges-for-github-pnk#ide) link for some `badges`.  </br></br>  Used [choosealicense](https://choosealicense.com/) to include all the different licences along with 1 from [creativecommons](https://creativecommons.org/publicdomain/mark/1.0/).  </br></br>  Google/Youtube
+  Used [inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) for it's documentations to help with the coding.  </br></br>  Followed [readme-guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) to structure the generated ReadMe accordingly.  </br></br>  Used [dev.to](https://dev.to/envoy_/150-badges-for-github-pnk#ide) link for some `badges`.  </br></br>  Used [choosealicense](https://choosealicense.com/) to include all the different licences along with 1 from [creativecommons](https://creativecommons.org/publicdomain/mark/1.0/).  </br></br>  Google/Youtube
 
 ## *License*
 
