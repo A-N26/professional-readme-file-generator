@@ -50,7 +50,7 @@
 
 </details>
 
-> [Walkthrough video](https://drive.google.com/file/d/1xHJWV7orjlRSNYMwwFgmxxO9vX4rOCbM/view?usp=sharing)
+> [Walkthrough video](<iframe src="https://drive.google.com/file/d/1xHJWV7orjlRSNYMwwFgmxxO9vX4rOCbM/preview" width="640" height="480"></iframe>)
 
 ## *Credits*
 
