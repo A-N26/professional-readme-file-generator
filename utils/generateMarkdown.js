@@ -114,7 +114,7 @@ If you would like to as me anything (ama) about the project, please contact me o
 
 * [My GitHub Profile](https://github.com/${data.GUser})
 
-* [My e-mail](${data.ELink}
+* [My e-mail](${data.ELink})
 
 </details>
 
