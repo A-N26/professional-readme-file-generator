@@ -98,7 +98,7 @@ ${renderLicenseBadge(data.License)}
 
 ## *License*
 
->**(Please Click the BADGE for the license details.)**
+**(Please Click the BADGE for the license details.)**
 
   ${renderLicenseLink(data.License)}
 
