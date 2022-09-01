@@ -130,11 +130,11 @@ const questions = () => {
         message: "Please specify the license from the choices.",
         choices: ["MIT", "ISC", "GNU GPLv3", "Unlicense", "none"],
 
-        validate: (LicenceList) => {
-          if (LicenceList) {
+        validate: (LicenseList) => {
+          if (LicenseList) {
             return true;
           } else {
-            console.log("Please select a licence type");
+            console.log("Please select a license type");
             return "false";
           }
         },
