@@ -37,7 +37,7 @@
   After the above steps are taken care of, answer a list of questions as per required to generate the file. Once that is done, a `'success'` statement will pop up in terminal and a file will be saved in the directory, ready to be used.  </br></br>  ![UsageProcess](../media/Terminal_NodeInitialize-to-ReadMeSavedSuccessfully.gif)
 
 * [Walkthrough video](https://drive.google.com/file/d/1tekbqUEKJZIrjM3yqtbzxMl5WIqYakgG/view)
-* [Walkthrough video] <detail>(https://youtu.be/1hAT7588cno) (The above GDrive link after creating with screencastify didn't seem to work for me initially, as such, to make sure, I still went ahead and created this link too...albeit, the GDrive link seemingly is working now!!...)</detail>
+* [Walkthrough video](https://youtu.be/1hAT7588cno) <detail>(The above GDrive link after creating with screencastify didn't seem to work for me initially, as such, to make sure, I still went ahead and created this link too...albeit, the GDrive link seemingly is working now!!...)</detail>
 
 ## *Links*
 
