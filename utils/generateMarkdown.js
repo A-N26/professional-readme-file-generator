@@ -40,91 +40,90 @@ function renderLicenseSection(License) {
 // ↓ Function to generate markdown for README.
 function generateMarkdown(data) {
   return `
-# <div align="center"> **${data.Title}** </div>
+# <div align="center"> **${data.Title}** </div>🏷️
 
 ${renderLicenseBadge(data.License)}
 
 ---
 
-## <div align="center"> *Description* </div>
+## <div align="center"> *Description* </div>📝
 
-  ${data.Description}
+${data.Description}
 
-## <div align="center"> *Languages Used* </div>
+## <div align="center"> *Languages Used* </div>💬
 
-  ${data.Languages}
-
----
-
-## *Table of Contents*
-
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Links](#Links)
-* [Credits](#Credits)
-* [Licence](#Licence)
-* [Badges](#Badges)
-* [Questions](#Questions)
-* [Tests](#Tests)
+${data.Languages}
 
 ---
 
-## *Installation*
+## *Table of Contents*📖
 
-  ${data.Installation}
+* [Installation](#Installation)💾
+* [Usage](#Usage)🖥️
+* [Links](#Links)📎
+* [Credits](#Credits)💳
+* [Licence](#Licence)🪪
+* [Badges](#Badges)🦡
+* [Questions](#Questions)❓
+* [Tests](#Tests)🧪
 
-## *Usage*
+---
 
-  ${data.Usage}
+## *Installation* 💾
 
-## *Links*
+${data.Installation}
+
+## *Usage*🖥️
+
+${data.Usage}
+
+## *Links*📎
 
 <details>
 
-<summary>Github Links</summary>
+<summary>Github repo and deployed Links</summary>
 
->${data.GLink}
+* ${data.GLink}
 
-* >${data.DLink}
+* ${data.DLink}
 
 </details>
 
-## *Credits*
+## *Credits*💳
 
-  ${data.Credits}
+${data.Credits}
 
-
-## *License*
+## *License*🪪🦡
 
 **(Please Click the BADGE for the license details.)**
 
-  ${renderLicenseLink(data.License)}
+${renderLicenseLink(data.License)}
 
-## *Badges*
+## *Badges*🦡
 
-  ${data.Badges}
+${data.Badges}
 
-## *Questions*
+## *Questions*❓
 
 If you would like to as me anything (ama) about the project, please contact me on the info mentioned below:
 
 <details>
 
-<summary>Contact Me</summary>
+<summary>Contact Me</summary>✉️
 
 * [My GitHub Profile](https://github.com/${data.GUser})
 
-* [My e-mail](${data.ELink})
+* [📧](${data.ELink})
 
 </details>
 
 ## *Contributing*
 
-  ${data.Contribution}
+${data.Contribution}
 
-## *Tests*
+## *Tests*🧪
 
-  ${data.Tests}
+${data.Tests}
 `;
 }
 
